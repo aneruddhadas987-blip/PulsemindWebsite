@@ -2,7 +2,7 @@ import { Target, Heart, Zap, Users } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="home" className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
+    <section className="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl mb-6 shadow-lg">
