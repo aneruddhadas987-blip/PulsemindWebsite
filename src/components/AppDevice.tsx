@@ -2,17 +2,17 @@ import { Smartphone, Activity, Bluetooth, Heart, Waves, Zap, Camera, CheckCircle
 
 export default function AppDevice() {
   return (
-    <section id="app-device" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-cyan-50">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-cyan-50">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <Smartphone className="w-12 h-12 text-cyan-600 mx-auto mb-4" />
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">App & Device</h2>
-          <p className="text-xl text-gray-600">Complete ecosystem for mental health and overdose detection</p>
+        <div className="text-center mb-10 sm:mb-14 md:mb-16">
+          <Smartphone className="w-10 h-10 sm:w-12 sm:h-12 text-cyan-600 mx-auto mb-3 sm:mb-4" />
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2 sm:mb-4">App & Device</h2>
+          <p className="text-base sm:text-lg md:text-xl text-gray-600 px-2">Complete ecosystem for mental health and overdose detection</p>
         </div>
 
-        <div className="bg-gradient-to-br from-white to-blue-50 rounded-3xl p-12 shadow-2xl mb-20 border border-gray-200">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Experience the PulseMind App</h3>
-          <div className="grid lg:grid-cols-3 gap-8">
+        <div className="bg-gradient-to-br from-white to-blue-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl mb-12 sm:mb-16 md:mb-20 border border-gray-200">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">Experience the PulseMind App</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             <div className="group">
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                 <div className="relative mb-4 overflow-hidden rounded-xl shadow-xl">
@@ -57,13 +57,13 @@ export default function AppDevice() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-cyan-200">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl flex items-center justify-center">
-                <Smartphone className="w-6 h-6 text-white" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 mb-12 sm:mb-14 md:mb-16">
+          <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl border-2 border-cyan-200">
+            <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                <Smartphone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">PulseMind Mobile App</h3>
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900">PulseMind Mobile App</h3>
             </div>
 
             <div className="space-y-4">
@@ -117,12 +117,12 @@ export default function AppDevice() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-8 shadow-xl border-2 border-blue-200">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center">
-                <Activity className="w-6 h-6 text-white" />
+          <div className="bg-white rounded-xl sm:rounded-2xl p-6 sm:p-8 shadow-xl border-2 border-blue-200">
+            <div className="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                <Activity className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Wearable Sensor Array</h3>
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900">Wearable Sensor Array</h3>
             </div>
 
             <div className="space-y-4">
@@ -160,15 +160,15 @@ export default function AppDevice() {
           </div>
         </div>
 
-        <div className="bg-white rounded-3xl p-12 shadow-2xl mb-16 border border-gray-200">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">System Architecture</h3>
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl mb-12 sm:mb-14 md:mb-16 border border-gray-200">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">System Architecture</h3>
           <div className="max-w-4xl mx-auto">
             <img
               src="/pulsemind_oct31 copy.png"
               alt="PulseMind System Architecture"
-              className="w-full h-auto rounded-xl shadow-lg"
+              className="w-full h-auto rounded-lg sm:rounded-xl shadow-lg"
             />
-            <div className="mt-8 grid md:grid-cols-3 gap-6">
+            <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
               <div className="text-center p-4 bg-blue-50 rounded-xl">
                 <Camera className="w-8 h-8 text-blue-600 mx-auto mb-3" />
                 <h4 className="font-bold text-gray-900 mb-2">Image Input</h4>
@@ -188,19 +188,19 @@ export default function AppDevice() {
           </div>
         </div>
 
-        <div className="bg-white rounded-3xl p-12 shadow-2xl mb-16 border border-gray-200">
-          <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">Physical Prototype</h3>
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl mb-12 sm:mb-14 md:mb-16 border border-gray-200">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 text-center">Physical Prototype</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <div>
               <img
                 src="/pro_gsr_led-2 copy.jpg"
                 alt="PulseMind Wearable Prototype"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                className="w-full h-auto rounded-lg sm:rounded-2xl shadow-2xl"
               />
             </div>
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-xl flex items-center justify-center flex-shrink-0">
+            <div className="space-y-4 sm:space-y-6">
+              <div className="flex items-start space-x-3 sm:space-x-4">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-400 to-red-500 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
                   <Activity className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -236,9 +236,9 @@ export default function AppDevice() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl p-8 text-white shadow-xl">
-          <h3 className="text-3xl font-bold mb-6 text-center">PulseMind System Overview</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+        <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl sm:rounded-2xl p-6 sm:p-8 text-white shadow-xl">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 sm:mb-6 text-center">PulseMind System Overview</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
             <div className="text-center">
               <div className="w-16 h-16 bg-white/20 backdrop-blur rounded-xl flex items-center justify-center mx-auto mb-4">
                 <Camera className="w-8 h-8" />
