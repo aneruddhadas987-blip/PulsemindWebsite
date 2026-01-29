@@ -14,10 +14,13 @@ export default function Patent() {
             <Award className="w-8 h-8 sm:w-10 sm:h-10 text-blue-600" />
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-900 mb-4 sm:mb-6">
-            Officially Patented
+            Patent Pending
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-center text-gray-600 max-w-2xl">
+          <p className="text-base sm:text-lg md:text-xl text-center text-gray-600 max-w-2xl mb-3">
             PulseMind's innovative technology is protected by the United States Patent and Trademark Office
+          </p>
+          <p className="text-sm sm:text-base text-center text-gray-500 max-w-2xl">
+            A patent application has been filed covering the device and associated software application
           </p>
         </div>
 
